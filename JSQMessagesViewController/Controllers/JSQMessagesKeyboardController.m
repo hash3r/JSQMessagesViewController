@@ -52,7 +52,7 @@ typedef void (^JSQAnimationCompletionBlock)(BOOL finished);
 
 - (void)jsq_setKeyboardViewHidden:(BOOL)hidden;
 - (void)jsq_notifyKeyboardFrameNotificationForFrame:(CGRect)frame;
-- (void)jsq_resetKeyboardAndTextView;
+
 
 - (void)jsq_removeKeyboardFrameObserver;
 
