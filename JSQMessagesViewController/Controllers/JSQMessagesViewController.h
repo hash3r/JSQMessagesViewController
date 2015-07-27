@@ -267,5 +267,6 @@
  *  @param animated Pass `YES` if you want to animate scrolling, `NO` if it should be immediate.
  */
 - (void)scrollToBottomAnimated:(BOOL)animated;
+- (void)keyboardController:(JSQMessagesKeyboardController *)keyboardController keyboardDidChangeFrame:(CGRect)keyboardFrame;
 
 @end
